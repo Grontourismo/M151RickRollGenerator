@@ -5,18 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="220096cd-547e-4876-af82-b0e3bededee4" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/vinnol/rickrollgenerator/connection/MSSQLConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/vinnol/rickrollgenerator/controller/CountryStatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/vinnol/rickrollgenerator/controller/PrankController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/vinnol/rickrollgenerator/entity/CountryStat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/vinnol/rickrollgenerator/entity/Prank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/vinnol/rickrollgenerator/service/CountryStatService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/vinnol/rickrollgenerator/service/PrankService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitLogs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/zli/m223/rickrollgenerator/domain/Prank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrapper/maven-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/M151RickRollGeneratorAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/M151RickRollGeneratorAPI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/m223/rickrollgenerator/domain/Prank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/import.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,25 +28,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="AnnotationType" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="JpbToolWindowState">
-    <option name="myId2FirstActivated">
-      <map>
-        <entry key="JPA Structure" value="true" />
-      </map>
-    </option>
-    <option name="myId2Visible">
-      <map>
-        <entry key="JPA Structure" value="false" />
-      </map>
-    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
