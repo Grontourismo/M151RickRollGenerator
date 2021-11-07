@@ -36,10 +36,9 @@ public class PrankService {
     }
 
     public Prank getPrankByUID(String uid) {
-        ResultSet set = null;
         Prank returnPrank = null;
         try {
-            set = statement.executeQuery("SELECT * FROM Pranks WHERE uid='" + uid + "'");
+            ResultSet set = statement.executeQuery("SELECT * FROM Pranks WHERE uid='" + uid + "'");
             returnPrank = setPrank(set.getLong("id"), set.getString("uid"), set.getString("title"), set.getString("description"), set.getString("imageURL"), LocalDateTime.parse(set.getString("createDate")), set.getBoolean("active"), set.getInt("count"));
         } catch (SQLException e) {
             e.printStackTrace();
