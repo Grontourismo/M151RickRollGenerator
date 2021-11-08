@@ -48,7 +48,8 @@ public class PrankService {
 
     public void clicked(String uid) {
         try {
-            statement.executeQuery("EXEC IncreasCount @UID='" + uid + "'");
+            // MSSQL  statement.executeQuery("EXEC IncreasCount @UID='" + uid + "'");
+            statement.executeQuery("CAL IncreasCount('" + uid + "')");
         } catch (SQLException e) {
             e.printStackTrace();
         }

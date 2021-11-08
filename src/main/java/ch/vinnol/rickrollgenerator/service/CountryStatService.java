@@ -27,7 +27,8 @@ public class CountryStatService {
     public CountryStat newCountryStat(String prankId, CountryStat stat) {
         CountryStat returnCountryStat = null;
         try {
-            ResultSet set = statement.executeQuery("EXEC IncreasCountryCount @prank_id='" + prankId + "', @country='" + stat.getCountry() + "', @count='" + stat.getCount() + "'");
+            // MSSQL  ResultSet set = statement.executeQuery("EXEC IncreasCountryCount @prank_id='" + prankId + "', @country='" + stat.getCountry() + "', @count='" + stat.getCount() + "'");
+            ResultSet set = statement.executeQuery("CALL IncreasCountryCount('" + prankId + "', '" + stat.getCountry() + "', '" + stat.getCount() + "')");
             returnCountryStat = setCountryStat(set.getLong("id"), set.getString("country"), set.getInt("count"));
         } catch (SQLException e) {
             e.printStackTrace();
