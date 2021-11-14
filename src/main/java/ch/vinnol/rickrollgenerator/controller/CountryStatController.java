@@ -20,6 +20,7 @@ public class CountryStatController {
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
     public void setCountryStat(@PathParam String prankId, CountryStat stat){
+        System.out.println("setStat");
         System.out.println(prankId);
         System.out.println(stat.getCountry());
         System.out.println(stat.getCount());

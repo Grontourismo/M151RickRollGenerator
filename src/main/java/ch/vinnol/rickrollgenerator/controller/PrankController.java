@@ -33,6 +33,7 @@ public class PrankController {
     @Path("/{uid}")
     public Prank getPrank(@PathParam String uid){
         System.out.println("getPrank");
+        System.out.println("return");
         return service.getPrankByUID(uid);
     }
 
