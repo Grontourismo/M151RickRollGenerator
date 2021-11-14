@@ -20,6 +20,7 @@ SET GLOBAL event_scheduler = ON;
 CREATE EVENT CallCheckExpiration
     ON SCHEDULE
     EVERY 5 Minute
+
 DO
   CALL `CheckExpiration`();
 
