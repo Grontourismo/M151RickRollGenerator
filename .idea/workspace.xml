@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="220096cd-547e-4876-af82-b0e3bededee4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/DB/script2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/DB/script2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DB/MariaDB/procedure-event.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +58,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\Desktop\Aufgaben\ZLI\ÜK\Modul 223 Multiuserapplikation entwickeln\M151RickRollGeneratorAPI" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\Aufgaben\ZLI\ÜK\Modul 223 Multiuserapplikation entwickeln\M151RickRollGeneratorAPI\src\DB\MariaDB" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -68,6 +72,7 @@
       <updated>1635752315116</updated>
       <workItem from="1635752316802" duration="5050000" />
       <workItem from="1636224939988" duration="3664000" />
+      <workItem from="1636906500905" duration="658000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1635752520797</created>
@@ -76,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635752520797</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="cool man i am u trash">
+      <created>1636360878465</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1636360878465</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +96,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="cool man i am u trash" />
+    <option name="LAST_COMMIT_MESSAGE" value="cool man i am u trash" />
   </component>
 </project>
