@@ -19,8 +19,11 @@ public class CountryStatController {
     @Path("/{prankId}")
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
-    public CountryStat setCountryStat(@PathParam String prankId, CountryStat stat){
-        return service.newCountryStat(prankId, stat);
+    public void setCountryStat(@PathParam String prankId, CountryStat stat){
+        System.out.println(prankId);
+        System.out.println(stat.getCountry());
+        System.out.println(stat.getCount());
+        service.newCountryStat(prankId, stat);
     }
 
     @GET
@@ -28,6 +31,8 @@ public class CountryStatController {
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
     public List<CountryStat> getCountryStats(@PathParam String prankId){
+        System.out.println("getCountryStats");
+        System.out.println(prankId);
         return service.getCountryStatsByPrankId(prankId);
     }
 }

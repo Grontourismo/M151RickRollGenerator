@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="220096cd-547e-4876-af82-b0e3bededee4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/DB/script2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/DB/script2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DB/MariaDB/db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/vinnol/rickrollgenerator/connection/MariaDBConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/M151RickRollGeneratorAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/M151RickRollGeneratorAPI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DB/MariaDB/script3.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/DB/MariaDB/old.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/vinnol/rickrollgenerator/controller/CountryStatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/vinnol/rickrollgenerator/controller/CountryStatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/vinnol/rickrollgenerator/controller/PrankController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/vinnol/rickrollgenerator/controller/PrankController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/vinnol/rickrollgenerator/service/CountryStatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/vinnol/rickrollgenerator/service/CountryStatService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/vinnol/rickrollgenerator/service/PrankService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/vinnol/rickrollgenerator/service/PrankService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +33,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="JPA Palette" value="true" />
+        <entry key="JPA Structure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="JPA Palette" value="false" />
+        <entry key="JPA Structure" value="false" />
+      </map>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -36,6 +60,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -57,6 +82,12 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\Desktop\Aufgaben\ZLI\ÜK\Modul 223 Multiuserapplikation entwickeln\M151RickRollGeneratorAPI" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vincent\Desktop\TBZ\M151\ModuProjekt\M151RickRollGeneratorAPI\src\DB\MariaDB" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ch.vinnol.rickrollgenerator.connection" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -68,6 +99,8 @@
       <updated>1635752315116</updated>
       <workItem from="1635752316802" duration="5050000" />
       <workItem from="1636224939988" duration="3664000" />
+      <workItem from="1636902688434" duration="622000" />
+      <workItem from="1636903623247" duration="2655000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1635752520797</created>
