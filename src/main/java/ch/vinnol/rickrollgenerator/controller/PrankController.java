@@ -32,6 +32,7 @@ public class PrankController {
     @Produces(MediaType.APPLICATION_JSON)
     @Path("/{uid}")
     public Prank getPrank(@PathParam String uid){
+        System.out.println("getPrank");
         return service.getPrankByUID(uid);
     }
 
@@ -40,6 +41,7 @@ public class PrankController {
     @Consumes(MediaType.APPLICATION_JSON)
     @Path("/clicked/{uid}")
     public void clicked(@PathParam String uid){
+        System.out.println("clicked");
         service.clicked(uid);
     }
 }
